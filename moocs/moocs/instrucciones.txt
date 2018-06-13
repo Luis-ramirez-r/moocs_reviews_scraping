@@ -1,0 +1,24 @@
+Srta, Betzaida.
+
+Por favor revisa los documentos:  moocs.csv y moocsreviews.csv. 
+
+
+Para moocs.csv:
+Cada fila de moocs.csv corresponde a un curso y tiene el enlace correspondiente.
+Toma 10 filas al azar y verifca:
+
+1) Campos vacios en el documento que estan disponibles en la pagina. Si esto ocurre, revisa si hay algun patron: como que el contenido este en otro lugar, en otro fuente o tamaño... 
+
+2) Campos incompletos o erroneos.
+
+3) Informacion en la pagina que consideres relevante y no esta disponible en el documento.
+
+
+Para moocsreviews.csv:  
+Este contiene los reviews de los cursos de moocs.csv para estos en enlace no esta disponible, pero puede usar el nombre del curso para consguirlo en moocs.csv.
+Toma 10 filas al azar y verifca:
+
+1) Campos incompletos o erroneos.
+
+2) Informacion en la pagina que consideres relevante y no esta disponible en el documento.
+
