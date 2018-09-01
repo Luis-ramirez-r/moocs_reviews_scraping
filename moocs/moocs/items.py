@@ -37,13 +37,12 @@ def get_university(text):
 	return text
 
 class MoocsItem(scrapy.Item):
-	# define the fields for your item here like:
 	course_title = scrapy.Field(output_processor=clean_text)
-	course_instructors = scrapy.Field(output_processor=quote_field)
 	course_description = scrapy.Field(output_processor=quote_field)    
+	course_instructors = scrapy.Field(output_processor=quote_field)
+	course_provider =  scrapy.Field(output_processor=get_provider)
 	course_key_concepts = scrapy.Field(output_processor=procesor_test)
 	course_link = scrapy.Field()
-	course_provider =  scrapy.Field(output_processor=get_provider)
 	course_cost = scrapy.Field(output_processor=clean_text)
 	university = scrapy.Field(output_processor=get_university)
 	## reviews
